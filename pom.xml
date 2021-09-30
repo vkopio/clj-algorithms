@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.clojars.vkopio</groupId>
-  <artifactId>topological-sort</artifactId>
+  <artifactId>dag</artifactId>
   <version>0.1.0-SNAPSHOT</version>
-  <name>vkopio/topological-sort</name>
+  <name>vkopio/dag</name>
   <description>FIXME: my new library.</description>
-  <url>https://github.com/vkopio/topological-sort</url>
+  <url>https://github.com/vkopio/dag</url>
   <licenses>
     <license>
       <name>Eclipse Public License</name>
@@ -19,9 +19,9 @@
     </developer>
   </developers>
   <scm>
-    <url>https://github.com/vkopio/topological-sort</url>
-    <connection>scm:git:git://github.com/vkopio/topological-sort.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/vkopio/topological-sort.git</developerConnection>
+    <url>https://github.com/vkopio/dag</url>
+    <connection>scm:git:git://github.com/vkopio/dag.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/vkopio/dag.git</developerConnection>
     <tag>v0.1.0-SNAPSHOT</tag>
   </scm>
   <dependencies>

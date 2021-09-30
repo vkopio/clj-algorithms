@@ -1,4 +1,4 @@
-# vkopio/topological-sort
+# vkopio/dag
 
 FIXME: my new library.
 
@@ -8,7 +8,7 @@ FIXME: write usage documentation!
 
 Invoke a library API function from the command-line:
 
-    $ clojure -X vkopio.topological-sort/-main :a 1 :b '"two"'
+    $ clojure -X vkopio.dag/-main :a 1 :b '"two"'
     {:a 1, :b "two"} "Hello, World!"
 
 Run the project's tests (they'll fail until you edit them):
@@ -32,7 +32,7 @@ variables (requires the `ci` task be run first):
 
     $ clojure -T:build deploy
 
-Your library will be deployed to net.clojars.vkopio/topological-sort on clojars.org by default.
+Your library will be deployed to net.clojars.vkopio/dag on clojars.org by default.
 
 ## License
 

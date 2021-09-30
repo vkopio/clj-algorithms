@@ -16,7 +16,7 @@
   [dag]
   (let [all-vertices         (-> dag keys set)
         in-neighbor-vertices (apply union (vals dag))]
-    (-> (difference all-vertices in-neighbor-vertices) vec not-empty)))
+    (-> all-vertices (difference in-neighbor-vertices) vec not-empty)))
 
 (defn topological-sort
   "Given a DAG as an input, returns a vector of vertices topologically sorted."

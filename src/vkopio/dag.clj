@@ -30,5 +30,10 @@
       (when (empty? remaining-dag)
         topological-order))))
 
+; Evaluating the function with 'dag-a' gives the following result
+; (order of :a and :b may vary):
+; (topological-sort dag-a)
+; => [:b :a :c :d :e]
+
 (defn -main [& args]
   (println (topological-sort dag-a)))

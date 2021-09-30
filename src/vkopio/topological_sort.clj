@@ -1,6 +1,5 @@
 (ns vkopio.topological-sort
-  (:require [clojure.pprint :refer [pprint]]
-            [clojure.set :refer [difference union]])
+  (:require [clojure.set :refer [difference union]])
   (:gen-class))
 
 (def a-dag
@@ -29,4 +28,4 @@
       topological-order)))
 
 (defn -main [& args]
-  (pprint (topo-sort a-dag)))
+  (println (topo-sort a-dag)))

@@ -19,7 +19,8 @@
     (-> all-vertices (difference in-neighbor-vertices) vec not-empty)))
 
 (defn topological-sort
-  "Given a DAG as an input, returns a vector of vertices topologically sorted."
+  "Given a DAG as an input, returns a vector of vertices topologically sorted.
+   Returns nil if the graph contains cycles."
   [dag]
   (loop [remaining-dag     dag
          topological-order []]
